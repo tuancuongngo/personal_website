@@ -96,7 +96,7 @@ body
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 20px;
-    /* text-align: center;  MAYBE REFORMAT */
+    text-align: center;  */ MAYBE REFORMAT */
 }
 
 .contactInfo ul
@@ -153,6 +153,12 @@ body
 }
 
 .contactInfo.education h4
+{
+    color: #fff;
+    font-weight: 300;
+}
+
+.contactInfo.course h5
 {
     color: #fff;
     font-weight: 300;
