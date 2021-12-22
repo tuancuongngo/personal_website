@@ -66,6 +66,15 @@ body
     object-fit: cover;
 }
 
+.profileText h5
+{
+    color: #fff;
+    margin-top: 20px;
+    text-align: start;
+    font-weight: 300;
+    line-height: 0.0em;
+}
+
 .profileText h2
 {
     color: #fff;
@@ -83,7 +92,6 @@ body
     font-size: 0.6em;
     font-weight: 300;
     line-height: 1.0em;
-    text-align: left;
 }
 
 .contactInfo
