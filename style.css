@@ -80,8 +80,10 @@ body
 /* Change the format of title under Name */
 .profileText h2 span
 {
-    font-size: 0.8em;
+    font-size: 0.6em;
     font-weight: 300;
+    line-height: 1.0em;
+    text-align: left;
 }
 
 .contactInfo
@@ -143,7 +145,6 @@ body
 {
     color: #03a9f4;
     font-weight: 500;
-
 }
 
 .contactInfo.education h4:nth-child(2)
