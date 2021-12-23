@@ -315,6 +315,11 @@ p
     {
         grid-template-columns: repeat(2,1fr);
     }
+
+    .about .projects .text h4
+    {
+        text-align: left;
+    }
     
 }
 
