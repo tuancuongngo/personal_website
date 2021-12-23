@@ -296,11 +296,27 @@ p
         grid-template-columns: repeat(1,1fr);
     }
 
-    /*NEEDS WORK TO HAVE BETTER FORMATTING ON MOBILE DEVICES
-    /* .interest ul
+    .about .interest ul
     {
         grid-template-columns: repeat(2,1fr);
-    } */
-
+    }
     
+}
+
+/*EXPERIENCE SECTION FORMATTING FOR MOBILE*/
+@media(max-width: 1000px)
+{
+    .about .box
+    {
+        flex-direction: column;
+    }
+    .about .box .year_company
+    {
+        margin-bottom: 5px;
+    }
+
+    /* .about .interest ul
+    {
+        grid-template-columns: repeat(1,1fr);
+    } */
 }
