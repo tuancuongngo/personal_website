@@ -99,6 +99,8 @@ body
     padding-top: 40px;
 }
 
+
+
 .title
 {
     color: #fff;
@@ -177,6 +179,11 @@ body
 {
     color: #fff;
     font-weight: 300;
+}
+
+.contactInfo.education .hype
+{
+    text-align: center;
 }
 
 .contactInfo.course h4
