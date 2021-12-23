@@ -234,6 +234,10 @@ p
     margin-top: 1px;
 }
 
+.about .needIndent .classes
+{
+    margin-left: 15px;
+}
 
 
 .about .box
