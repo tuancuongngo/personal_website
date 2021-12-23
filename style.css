@@ -210,13 +210,13 @@ p
     text-indent: -14px;
 }
 
-.about li:before
+.about .needIndent li:before
 {
     content: "-";
     text-indent: -5px;
 }
 
-.about li:first-child
+.about .needIndent li:first-child
 {
     margin-top: 1px;
 }
@@ -278,5 +278,29 @@ p
     color: #333;
     font-weight: 500;
     margin: 10px 0;
-    text-indent: 5px;
+}
+
+.interest ul li .fa
+{
+    color: #333;
+    font-size: 18px;
+    /* width: 20px; */
+}
+
+/*IMPORTANT RESIZING STUFF FOR MOBILE*/
+@media(max-width: 1000px)
+{
+    .container
+    {
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    /*NEEDS WORK TO HAVE BETTER FORMATTING ON MOBILE DEVICES
+    /* .interest ul
+    {
+        grid-template-columns: repeat(2,1fr);
+    } */
+
+    
 }
