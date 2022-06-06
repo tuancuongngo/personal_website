@@ -1,2 +1,2 @@
 # personal_website
-My personal website project
+My personal website project written in HTML and CSS.
